@@ -45,3 +45,9 @@ matrix is defined as a 3x3 square matrix.
 The function get_diagonal(matrix) is called to retrieve the diagonal elements.
 The result is [1, 5, 9], which are the diagonal elements of the input matrix.
 This documentation clarifies the purpose of the function, its input requirements, the expected output, and how it handles potential errors. Users can refer to this documentation to understand how to use the function effectively.
+
+
+#### OUTPUT:
+For the above example, we have got the output as diagnol [1, 5, 9]. 
+The run time is :
+![Alt text](image.png)
