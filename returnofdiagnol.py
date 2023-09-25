@@ -1,9 +1,9 @@
+import numpy as np
 def get_diagonal(matrix):
     if not matrix:
         return []
 
-    num_rows = len(matrix)
-    num_cols = len(matrix[0])
+    num_rows, num_cols = np.shape(matrix)
 
     if num_rows != num_cols:
         raise ValueError("Input matrix must be square.")
