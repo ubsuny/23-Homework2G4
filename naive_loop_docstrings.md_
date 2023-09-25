@@ -1,0 +1,40 @@
+import numpy as np
+import time
+
+def diagonal_elements(matrix):
+    """
+    Extracts the diagonal elements of a square matrix and measures the time taken to perform the operation.
+
+    Parameters:
+        matrix (list of lists): A square matrix represented as a list of lists.
+
+    Returns:
+        list: A list containing the diagonal elements of the input matrix.
+        float: The execution time (in seconds) of the diagonal element extraction process.
+
+    Example:
+        >>> matrix = [[1, 2, 3],
+                      [4, 5, 6],
+                      [7, 8, 9]]
+        >>> diagonal_elements(matrix)
+        ([1, 5, 9], 2.384185791015625e-06)
+
+    Note:
+        This function assumes that the input matrix is square, meaning it has the same number of rows and columns.
+        The execution time is measured using the time.time() function and represents the time taken to extract
+        the diagonal elements using a loop.
+    """
+    n = len(matrix)
+    diagonal = []
+
+    # Start measuring time for the loop
+    start_time = time.time()
+
+    for i in range(n):
+        diagonal.append(matrix[i][i])
+
+    # End measuring time for the loop
+    end_time = time.time()
+    loop_execution_time = end_time - start_time
+
+    return diagonal, loop_execution_time
