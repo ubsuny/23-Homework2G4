@@ -124,23 +124,23 @@ print("Execution Time:", execution_time, "seconds")
 import numpy as np
 import time
 
-# Define the size of the matrix (n x n)
+###### Define the size of the matrix (n x n)
 n = 100  # Change this value to the desired size
 
-# Generate a random n x n matrix
+###### Generate a random n x n matrix
 matrix = np.random.rand(n, n)
 
-# Measure the execution time
+###### Measure the execution time
 start_time = time.time()
 
-# Extract the diagonal using Einstein notation
+###### Extract the diagonal using Einstein notation
 diagonal = np.einsum('ii->i', matrix)
 
-# Calculate the execution time
+###### Calculate the execution time
 end_time = time.time()
 execution_time = end_time - start_time
 
-# Print the diagonal elements and execution time
+###### Print the diagonal elements and execution time
 print("Diagonal:", diagonal)
 print("Execution Time:", execution_time, "seconds")
 
