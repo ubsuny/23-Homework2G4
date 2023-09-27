@@ -144,6 +144,8 @@ execution_time = end_time - start_time
 print("Diagonal:", diagonal)
 print("Execution Time:", execution_time, "seconds")
 
+### In this way we have calculated and compared the execution time of return of diagnol using various method.
+
 
 
 
