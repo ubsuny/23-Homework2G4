@@ -69,7 +69,7 @@ print("NumPy execution time:", m2)
 #NumPy execution time: 6.937980651855469e-05
 
 
-# Tensor flow implementation
+# Tensor flow implementation with GPU
 
 
 !pip install tensorflow
