@@ -146,6 +146,15 @@ print("Execution Time:", execution_time, "seconds")
 
 ### In this way we have calculated and compared the execution time of return of diagnol using various method.
 
+### The references of our work is given below
+For most of our code work, We took assistance from different resources.
 
+To undestand Einsteins notation, we have used wikepedia. Source:
 
+https://en.wikipedia.org/wiki/Einstein_notation
+http://dslavsk.sites.luc.edu/courses/phys301/classnotes/einsteinsummationnotation.pdf
+
+To understand how the code for return of a diagonal matrix works, we tookhelp from the below reported website. Source:
+
+https://www.mathworks.com/help/matlab/ref/diag.html
 
